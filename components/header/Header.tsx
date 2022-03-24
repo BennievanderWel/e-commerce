@@ -16,24 +16,45 @@ const Header = () => {
       <div className={styles.logoContainer}>
         <Image
           src='/logo.svg'
-          height={100}
-          width={100}
+          height={60}
+          width={60}
           alt='Logo'
           className={styles.logo}
+          priority
         />
-        <p className={styles.brandName}>COUNTRYSHOP</p>
-        <p className={styles.slogan}>bizarre, but possible</p>
+        <span className={styles.brandName}>COUNTRYSHOP</span>
+        <span className={styles.slogan}>bizarre, but possible</span>
       </div>
-      <InputGroup>
+      <InputGroup className={styles.input} width={400}>
         <InputLeftElement
           pointerEvents='none'
+          className={styles.inputIcon}
           // eslint-disable-next-line react/no-children-prop
-          children={<SearchIcon color='gray.300' />}
+          children={<SearchIcon color='gray.300' w={5} h={5} />}
         />
-        <Input placeholder='Search for country..' />
+        <Input
+          borderColor='cyan.900'
+          size='lg'
+          variant='flushed'
+          placeholder='Search for country..'
+        />
+        <Button
+          borderColor='cyan.900'
+          textColor='cyan.900'
+          className={styles.inputButton}
+          size='lg'
+          variant='outline'
+        >
+          Go!
+        </Button>
       </InputGroup>
-      <Button>Go!</Button>
-      <Icon as={FiShoppingCart} />
+      <Icon
+        color='cyan.900'
+        className={styles.shoppingCart}
+        as={FiShoppingCart}
+        w={6}
+        h={6}
+      />
     </div>
   );
 };

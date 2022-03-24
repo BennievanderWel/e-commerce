@@ -13,6 +13,10 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Hurricane&family=Ramaraja&display=swap'
             rel='stylesheet'
           ></link>
+          <link
+            href='https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Ramaraja&display=swap'
+            rel='stylesheet'
+          ></link>
         </Head>
         <body>
           <Main />
