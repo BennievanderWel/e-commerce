@@ -1,3 +1,5 @@
+@import '../../scss/variables';
+
 .container {
   display: flex;
   margin-bottom: 40px;
@@ -5,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color:F7FAFC; // Gray.50 of Chakra
+  background-color: $gray50;
 
   -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
@@ -22,14 +24,14 @@
 .brandName {
   font-family: 'Ramaraja', serif;
   font-size: 34px;
-  color: #065666; // Cyan.900 of Chakra
+  color: $cyan900
 }
 
 .slogan {
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
   margin-top: -16px;
-  color: #065666; // Cyan.900 of Chakra
+  color: $cyan900 // Cyan.900 of Chakra
 }
 
 .input {

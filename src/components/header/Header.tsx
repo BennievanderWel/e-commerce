@@ -1,6 +1,5 @@
 import Image from "next/image";
 import {
-  Icon,
   IconButton,
   Input,
   InputGroup,
