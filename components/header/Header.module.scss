@@ -1,7 +1,7 @@
 .container {
   display: flex;
   margin-bottom: 40px;
-  padding: 4px 12px;
+  padding: 4px 36px 4px 12px;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -17,10 +17,6 @@
   flex-direction: column;
   align-items: center;
   height: 140px;
-}
-
-.shoppingCart {
-  margin-right: 16px;
 }
 
 .brandName {

@@ -1,12 +1,13 @@
 import Image from "next/image";
 import {
   Icon,
+  IconButton,
   Input,
   InputGroup,
   InputLeftElement,
   Button,
 } from "@chakra-ui/react";
-import { FiShoppingCart } from "react-icons/fi";
+import { GrShop } from "react-icons/gr";
 import { SearchIcon } from "@chakra-ui/icons";
 import styles from "./Header.module.scss";
 
@@ -34,6 +35,7 @@ const Header = () => {
         />
         <Input
           borderColor='cyan.900'
+          colorScheme='cyan'
           size='lg'
           variant='flushed'
           placeholder='Search for country..'
@@ -48,12 +50,11 @@ const Header = () => {
           Go!
         </Button>
       </InputGroup>
-      <Icon
-        color='cyan.900'
-        className={styles.shoppingCart}
-        as={FiShoppingCart}
-        w={6}
-        h={6}
+      <IconButton
+        aria-label='Shopping bag'
+        icon={<GrShop />}
+        size='lg'
+        variant='outline'
       />
     </div>
   );
