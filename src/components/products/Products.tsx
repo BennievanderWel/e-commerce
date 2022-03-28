@@ -12,14 +12,15 @@ const Products = ({ countries }: { countries: Country[] }) => {
 
         return (
           <div key={name} className={styles.item}>
+            <div className={styles.itemImg}>
+              <Image
+                src={url}
+                loading='lazy'
+                alt='Country flag'
+                layout='fill'
+              />
+            </div>
             {name}
-            <Image
-              src={url}
-              loading='lazy'
-              alt='Country flag'
-              width={130}
-              height={100}
-            />
           </div>
         );
       })}
