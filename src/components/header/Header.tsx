@@ -52,12 +52,14 @@ const Header = () => {
             Go!
           </Button>
         </InputGroup>
-        <IconButton
-          aria-label='Shopping bag'
-          icon={<GrShop />}
-          size='lg'
-          variant='outline'
-        />
+        <div className={styles.shoppingBag}>
+          <IconButton
+            aria-label='Shopping bag'
+            icon={<GrShop />}
+            size='lg'
+            variant='outline'
+          />
+        </div>
       </div>
       <div className={styles.banner}>
         {["Cheap", "Free Shipping", "30 day cashback"].map((text) => (
