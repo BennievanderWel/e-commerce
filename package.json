@@ -1,0 +1,9 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-commerce portfolio project",
+  "main": "index.js",
+  "author": "Bennie van der Wel",
+  "license": "MIT",
+  "private": true
+}
