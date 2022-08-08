@@ -1,0 +1,3 @@
+[submodule "apps/client"]
+	path = apps/client
+	url = git@github.com:BennievanderWel/e-commerce-client.git
