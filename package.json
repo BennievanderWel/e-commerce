@@ -5,5 +5,20 @@
   "main": "index.js",
   "author": "Bennie van der Wel",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": {
+    "packages": ["apps/*"],
+    "nohoist": ["**/graphql"]
+  },
+  "scripts": {
+    "dev": "run-p dev:server dev:client",
+    "dev:server": "yarn workspace server dev",
+    "dev:client": "yarn workspace client dev"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
 }

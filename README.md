@@ -42,3 +42,6 @@ tbd
 - Suspend some stuff
 - Storybook
 - Dark mode
+- Server eslint
+- Client prettier
+- Fix graphql hoisting
