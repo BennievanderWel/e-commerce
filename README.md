@@ -10,7 +10,6 @@ info
   - Client side rendering
 - [Typescript](https://www.typescriptlang.org/)
 - [Apollo GraphQL](https://www.apollographql.com/)
-- ~~Tialwind CSS~~
 - ~~Responsive~~
 - ~~Web vitals (google ranking 100%)~~
 - ~~accessibility~~
@@ -45,3 +44,7 @@ tbd
 - Server eslint
 - Client prettier
 - Fix graphql hoisting
+- Extract header to its own workspace
+- Hover product cards
+- Eslint
+- CSS reset
